@@ -52,7 +52,8 @@ CUDA_VISIBLE_DEVICES=0,1 python main.py --k 5 --exp_code classification_noise_0.
 ```
 
 
-If you use this code, please cite the following papers:
+
+### If you use this code, please cite the following papers:
 (1) Lu, Ming, et al. "Federated Learning for Computational Pathology on Gigapixel Whole Slide Images." Medical Image Analysis. 2021.
 
-The following code is adapted from: https://github.com/mahmoodlab/HistoFL. Our code is based on this improvement
+Our code is adapted from: https://github.com/mahmoodlab/HistoFL.
