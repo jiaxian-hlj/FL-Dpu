@@ -1,5 +1,4 @@
 # FL-Dpu
-Federated learning with comparative learning-based dynamic parameter updating on glioma whole slide images
 <img src="FedDpu.png" align="center" />
 
 
