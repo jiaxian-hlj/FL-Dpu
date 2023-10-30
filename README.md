@@ -52,14 +52,13 @@ CUDA_VISIBLE_DEVICES=0,1 python main.py --k 5 --exp_code classification_noise_0.
 
 
 ### Dependent code
-The following code is adapted from https://github.com/mahmoodlab/HistoFL:
+The following code is adapted from https://github.com/mahmoodlab/HistoFL:dataset_generic.py and model_attention_mil.py
 
-dataset_generic.py
-model_attention_mil.py
 Our code improves on their work by:
 
 Adding new functionality in eval.py and create_splits.py
 Optimizing algorithms in utils/fl_utils.py, utils/core_utils.py and utils/eval_utils.py 
+
 We thank the authors for their original codebase and encouragement of further research. For any questions, please contact original authors at email.
 
 ### License
