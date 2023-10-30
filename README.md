@@ -10,14 +10,14 @@
 We chose to encode each tissue patch with a 1024-dim feature vector using a truncated, pretrained ResNet50. For each WSI, these features are expected to be saved as matrices of torch tensors of size N x 1024, where N is the number of patches from each WSI (varies from slide to slide). The following folder structure is assumed:
 ```bash
 DATA_ROOT_DIR/
-    └──FEATURES_DIR/
+    └──classification_features_dir/
          ├── h5_files
-                ├── slide_1.h5
-                ├── slide_2.h5
+                ├── TCGA_1.h5
+                ├── TCGA_2.h5
                 └── ...
          └── pt_files
-                ├── slide_1.pt
-                ├── slide_2.pt
+                ├── TCGA_1.pt
+                ├── TCGA_2.pt
                 └── ...
 ```
 DATA_ROOT_DIR is the base directory of all datasets (e.g. the directory to your SSD). DATASET_DIR is the name of the folder containing data specific to one experiment and features from each slide is stored as .pt files.
