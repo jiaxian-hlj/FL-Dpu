@@ -1,5 +1,5 @@
 # FL-Dpu
-<img src="FedDpu.png" align="center" />
+<img src="FedDPU.png" align="center" />
 
 
 # Preprocess/Setup
