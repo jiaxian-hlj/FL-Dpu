@@ -51,11 +51,7 @@ CUDA_VISIBLE_DEVICES=0,1 python main.py --k 5 --exp_code classification_noise_0.
 ```
 
 
-If you use this code, please cite the following papers:
-(1) Lu, Ming, et al. "Federated Learning for Computational Pathology on Gigapixel Whole Slide Images." Medical Image Analysis. 2021.
-
-
-Dependent code
+### Dependent code
 The following code is adapted from https://github.com/mahmoodlab/HistoFL:
 
 dataset_generic.py
@@ -66,5 +62,9 @@ Adding new functionality in eval.py and create_splits.py
 Optimizing algorithms in utils/fl_utils.py, utils/core_utils.py and utils/eval_utils.py 
 We thank the authors for their original codebase and encouragement of further research. For any questions, please contact original authors at email.
 
-License
+### License
 Code is released under GPL V3.
+
+### Reference
+If you use this code, please cite the following papers:
+(1) Lu, Ming, et al. "Federated Learning for Computational Pathology on Gigapixel Whole Slide Images." Medical Image Analysis. 2021.
