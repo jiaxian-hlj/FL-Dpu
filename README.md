@@ -1,6 +1,6 @@
 # FL-Dpu
 Federated learning on whole slide images
-<img src="FedDpu.png" align="center" />
+<img src="FedDPU.jpg" align="center" />
 
 # Preprocess/Setup
 ### Installation Guide for Linux (using Anaconda)
