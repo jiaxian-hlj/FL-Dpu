@@ -60,7 +60,7 @@ Our code improves on their work by:
 
 Adding new functionality in ```eval.py``` and ```create_splits.py```
 
-Optimizing algorithms in utils/fl_utils.py, utils/core_utils.py and utils/eval_utils.py
+Optimizing algorithms in ```utils/fl_utils.py```, ```utils/core_utils.py``` and ```utils/eval_utils.py```
 
 We thank the authors for their original codebase and encouragement of further research. 
 
