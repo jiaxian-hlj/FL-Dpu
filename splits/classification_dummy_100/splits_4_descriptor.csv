@@ -1,0 +1,7 @@
+subtype,institute,train,val,test
+subtype_1,institute_1,20,2,2
+subtype_2,institute_1,10,1,1
+subtype_1,institute_0,53,7,7
+subtype_2,institute_0,6,1,1
+subtype_1,institute_2,48,6,6
+subtype_2,institute_2,8,1,1
