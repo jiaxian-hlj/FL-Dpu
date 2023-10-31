@@ -70,10 +70,15 @@ Code is released under GPL V3.
 ### Reference
 If you use this code, please cite the following papers:
 ```
-@article{lu2020federated,
-  title={Federated Learning for Computational Pathology on Gigapixel Whole Slide Images},
-  author={Lu, Ming Y and Kong, Dehan and Lipkova, Jana and Chen, Richard J and Singh, Rajendra and Williamsona, Drew FK and Chena, Tiffany Y and Mahmood, Faisal},
-  journal={arXiv preprint arXiv:2009.10190},
-  year={2020}
+@article{LU2022102298,
+title = {Federated learning for computational pathology on gigapixel whole slide images},
+journal = {Medical Image Analysis},
+volume = {76},
+pages = {102298},
+year = {2022},
+issn = {1361-8415},
+doi = {https://doi.org/10.1016/j.media.2021.102298},
+url = {https://www.sciencedirect.com/science/article/pii/S1361841521003431},
+author = {Ming Y. Lu and Richard J. Chen and Dehan Kong and Jana Lipkova and Rajendra Singh and Drew F.K. Williamson and Tiffany Y. Chen and Faisal Mahmood},
 }
 ```
