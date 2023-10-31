@@ -52,11 +52,7 @@ CUDA_VISIBLE_DEVICES=0,1 python main.py --k 5 --exp_code classification_noise_0.
 
 
 ### Dependent code
-The following code is adapted from https://github.com/mahmoodlab/HistoFL：
-
-```dataset_generic.py ```
-
-```model_attention_mil.py```
+Our research is currently undergoing submission to the journal Biomedical Signal Processing and Control. We have utilized a portion of the source code from the following reference file: https://github.com/mahmoodlab/HistoFL. 
 
 Our code improves on their work by:
 
@@ -67,7 +63,7 @@ Optimizing algorithms in ```utils/fl_utils.py``` ```utils/core_utils.py```  ```u
 We thank the authors for their original codebase and encouragement of further research. 
 
 ### License
-Code is released under GPL V3.
+The code is released under GPL V3.
 
 ### Reference
 If you use this code, please cite the following papers:
@@ -78,7 +74,6 @@ journal = {Medical Image Analysis},
 volume = {76},
 pages = {102298},
 year = {2022},
-issn = {1361-8415},
 doi = {https://doi.org/10.1016/j.media.2021.102298},
 url = {https://www.sciencedirect.com/science/article/pii/S1361841521003431},
 author = {Ming Y. Lu and Richard J. Chen and Dehan Kong and Jana Lipkova and Rajendra Singh and Drew F.K. Williamson and Tiffany Y. Chen and Faisal Mahmood},
