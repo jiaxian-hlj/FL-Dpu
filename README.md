@@ -69,4 +69,9 @@ Code is released under GPL V3.
 
 ### Reference
 If you use this code, please cite the following papers:
-(1) Lu, Ming, et al. "Federated Learning for Computational Pathology on Gigapixel Whole Slide Images." Medical Image Analysis. 2021.
+@article{lu2020federated,
+  title={Federated Learning for Computational Pathology on Gigapixel Whole Slide Images},
+  author={Lu, Ming Y and Kong, Dehan and Lipkova, Jana and Chen, Richard J and Singh, Rajendra and Williamsona, Drew FK and Chena, Tiffany Y and Mahmood, Faisal},
+  journal={arXiv preprint arXiv:2009.10190},
+  year={2020}
+}
