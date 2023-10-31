@@ -66,7 +66,7 @@ We thank the authors for their original codebase and encouragement of further re
 The code is released under GPL V3.
 
 ### Reference
-If you use this code, please cite the following papers:
+If you use this code, we highly recommend to cite the following papers:
 ```
 @article{LU2022102298,
 title = {Federated learning for computational pathology on gigapixel whole slide images},
