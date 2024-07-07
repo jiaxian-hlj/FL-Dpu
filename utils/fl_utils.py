@@ -59,8 +59,7 @@ def add_noise(all_worker_params, central_device, weights,noise_level):
             if 'labels' in key:
                 continue
             elif noise_level > 0 and 'bias' not in key:  
-                    # noise = noise_level * torch.empty(all_worker_params[idx][key].size()).normal_(mean=0, std=all_worker_params[idx][key].reshape(-1).float().std())
-                    laplace_dist = Laplace(torch.tensor([0.0]), torch.tensor([1.0]))
+                    laplace_dist = Laplace(torch.tensor([0.0]), torch.tensor([0.1))
                     noise = noise_level * laplace_dist.sample(all_worker_params[idx][key].size()).squeeze()
                     all_worker_params[idx][key] = all_worker_params[idx][key].to(central_device)+ noise.to(central_device)
                 
