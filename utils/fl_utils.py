@@ -44,7 +44,6 @@ def federated_averaging(model, worker_models, best_model_index, all_val_loss, we
                 temp = temp + weights[idx]*all_worker_params_update[idx][key].to(central_device)
                 
     model.load_state_dict(central_params)
-    prev_global_params = central_params
     return model, worker_models
 
 
