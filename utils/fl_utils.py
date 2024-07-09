@@ -15,7 +15,7 @@ def sync_models(server_model, worker_models):
     server_params = server_model.state_dict()
     worker_models = [worker_model.load_state_dict(server_params) for worker_model in worker_models]
 
-prev_global_params = None
+
 def federated_averaging(model, worker_models, best_model_index, all_val_loss, weights=None , args=None):
     global prev_global_params
     if model.device is not None:
@@ -34,8 +34,6 @@ def federated_averaging(model, worker_models, best_model_index, all_val_loss, we
     all_worker_params_noise = add_noise(all_worker_params,central_device,weights,args.noise_level)
     similarity_matrix = compute_similarity_matrix(all_worker_params_noise)
     all_worker_params_update = update_other_models(all_worker_params_noise, similarity_matrix, best_model_index,all_val_loss)
-    similarity_matrix_1 = compute_similarity_matrix(all_worker_params_update)
-    print(similarity_matrix_1)
     keys = central_params.keys()
     for key in keys:
         if 'labels' in key:
@@ -45,7 +43,7 @@ def federated_averaging(model, worker_models, best_model_index, all_val_loss, we
             for idx in range(num_insti):
                 temp = temp + weights[idx]*all_worker_params_update[idx][key].to(central_device)
             if prev_global_params is not None:
-                central_params[key] = 1.0*temp + 0.0*prev_global_params[key]        
+                central_params[key] = temp     
     model.load_state_dict(central_params)
     prev_global_params = central_params
     return model, worker_models
