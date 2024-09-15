@@ -52,7 +52,7 @@ CUDA_VISIBLE_DEVICES=0,1 python main.py --k 5 --exp_code classification_noise_0.
 
 
 ### Dependent code
-Our research has been published in journals《Engineering Applications of Artificial Intelligence 》. We have utilized a portion of the source code from the following reference file: https://github.com/mahmoodlab/HistoFL. 
+ We have utilized a portion of the source code from the following reference file: https://github.com/mahmoodlab/HistoFL. 
 
 Our code improves on their work by:
 
