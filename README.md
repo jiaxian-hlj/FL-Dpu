@@ -44,7 +44,7 @@ Training on data on all institutions without federated learning is toggled on us
 CUDA_VISIBLE_DEVICES=0 python main.py --k 5 --exp_code classification_no_fl --weighted_sample --task classification --no_fl --data_root_dir DATA_ROOT_DIR --split_dir classification_dummy_100
 ```
 
-### FL with varying noise level (Gaussian Mechanism)
+### FL with varying noise level 
 Training with federated averaging can be simulated by removing the --no_fl flag, as well as providing the level of noise (alpha parameter) via --noise_level. Example with alpha = 0.001 is as follows:
 ``` shell
 CUDA_VISIBLE_DEVICES=0,1 python main.py --k 5 --exp_code classification_noise_0.001 --weighted_sample --task classification --noise_level 0.001 --weighted_fl_avg --data_root_dir DATA_ROOT_DIR --split_dir classification_dummy_100
@@ -52,7 +52,7 @@ CUDA_VISIBLE_DEVICES=0,1 python main.py --k 5 --exp_code classification_noise_0.
 
 
 ### Dependent code
-Our research is currently undergoing submission to the journal Biomedical Signal Processing and Control. We have utilized a portion of the source code from the following reference file: https://github.com/mahmoodlab/HistoFL. 
+Our research has been published in journals《Engineering Applications of Artificial Intelligence 》. We have utilized a portion of the source code from the following reference file: https://github.com/mahmoodlab/HistoFL. 
 
 Our code improves on their work by:
 
