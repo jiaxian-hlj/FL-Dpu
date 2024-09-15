@@ -67,6 +67,21 @@ The code is released under GPL V3.
 
 ### Reference
 If you use this code, we highly recommend to cite the following papers:
+
+```
+@article{HUANG2024109233,
+title = {Federated learning with comparative learning-based dynamic parameter updating on glioma whole slide images},
+journal = {Engineering Applications of Artificial Intelligence},
+volume = {137},
+pages = {109233},
+year = {2024},
+issn = {0952-1976},
+doi = {https://doi.org/10.1016/j.engappai.2024.109233},
+url = {https://www.sciencedirect.com/science/article/pii/S0952197624013915},
+author = {Longjian Huang and Lizhi Shao and Meiling Bao and Changsong Guo and Zhuhong Shao and Xiazi Huang and Mingjing Wang and Xiaoming Jiang and Shengzhou Hu},
+}
+```
+
 ```
 @article{LU2022102298,
 title = {Federated learning for computational pathology on gigapixel whole slide images},
